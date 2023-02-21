@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { View, Image, Text, StyleSheet, Button, TouchableOpacity } from 'react-native';
+import { View, Image, Text, StyleSheet, TouchableOpacity } from 'react-native';
 
 const WelcomeScreen = ({ navigation }) => {
 
@@ -15,7 +15,7 @@ const WelcomeScreen = ({ navigation }) => {
         style={styles.image}
         resizeMode="contain"
       />
-      <Text style={styles.text}>Little Lemon, your local{"\nMediterranean Bistro"}</Text>
+      <Text style={styles.text}>Little Lemon, your local{"\n"}Mediterranean Bistro</Text>
     </View>
     <TouchableOpacity
       style={styles.button}
